@@ -2,6 +2,7 @@ package Collection;
 
 
     import java.util.*;
+    import java.util.Collection;
 public class Arraylists {
         public static void main(String args[]){
             ArrayList<String> list=new ArrayList<String>();//Creating arraylist
@@ -32,6 +33,8 @@ public class Arraylists {
             //size of array list
             int size = list.size();
             System.out.println("-Size of list:"+size);
+
+
             }
         }
 
